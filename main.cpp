@@ -10,9 +10,9 @@ int a,b,c;
 cin >> a >> b >> c;
 
 float area_triangolo = 0.5*a*b;
-float area_quadrato = a**2;
+float area_quadrato = a*a;
 float area_rettangolo = a*b;
-float area_trapezio = 0.5*( (a+b)*c )
+float area_trapezio = 0.5*( (a+b)*c );
 
 cout << area_triangolo << endl << area_quadrato << endl << area_rettangolo << endl << area_trapezio ;
 
