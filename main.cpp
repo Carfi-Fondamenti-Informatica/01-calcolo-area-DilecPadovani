@@ -6,12 +6,8 @@ using namespace std;
 int main()
 {
     // Qui vanno definite le variabili
-    int a, b, c;
+    float a, b, c;
     cin >> a >> b >> c;
-
-    cout << a << endl
-         << b << endl
-         << c << endl;
 
     float area_triangolo = 0.5 * a * b;
     float area_quadrato = a * a;
